@@ -1,0 +1,343 @@
+{
+  "Timestamp": "2020-12-11T13:01:43.8469338+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{FlowStatus} middleware operation {FlowId}",
+  "Properties": {
+    "FlowStatus": "Start",
+    "FlowId": "GetWeather",
+    "RequestId": "80000005-0003-ff00-b63f-84710c7967bb",
+    "RequestPath": "/weatherforecast",
+    "SpanId": "|dece85e5-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e5-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 4,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:44.1311518+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{@EventProperties}",
+  "Properties": {
+    "EventProperties": {
+      "FlowStatus": "Start",
+      "FlowId": "GetWeather",
+      "Method": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)"
+    },
+    "ActionId": "9ac50c9c-0b7b-4cfa-b74e-f44ffa8bb37e",
+    "ActionName": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)",
+    "RequestId": "80000005-0003-ff00-b63f-84710c7967bb",
+    "RequestPath": "/weatherforecast",
+    "SpanId": "|dece85e5-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e5-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 4,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:44.1332698+01:00",
+  "Level": "Information",
+  "MessageTemplate": "Another way of log with properties {FlowStatus} {FlowId} {Method}",
+  "Properties": {
+    "FlowStatus": "Start",
+    "FlowId": "GetWeather",
+    "Method": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)",
+    "ActionId": "9ac50c9c-0b7b-4cfa-b74e-f44ffa8bb37e",
+    "ActionName": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)",
+    "RequestId": "80000005-0003-ff00-b63f-84710c7967bb",
+    "RequestPath": "/weatherforecast",
+    "SpanId": "|dece85e5-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e5-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 4,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:44.1363002+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{@EventProperties}",
+  "Properties": {
+    "EventProperties": {
+      "FlowStatus": "End",
+      "FlowId": "GetWeather",
+      "Method": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)",
+      "ExecutionTimeElapsed": 2
+    },
+    "ActionId": "9ac50c9c-0b7b-4cfa-b74e-f44ffa8bb37e",
+    "ActionName": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)",
+    "RequestId": "80000005-0003-ff00-b63f-84710c7967bb",
+    "RequestPath": "/weatherforecast",
+    "SpanId": "|dece85e5-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e5-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 4,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:44.1365845+01:00",
+  "Level": "Information",
+  "MessageTemplate": "Another way of log with properties {FlowStatus} {FlowId} {Method} {ExecutionTimeElapsed}",
+  "Properties": {
+    "FlowStatus": "End",
+    "FlowId": "GetWeather",
+    "Method": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)",
+    "ExecutionTimeElapsed": 2,
+    "ActionId": "9ac50c9c-0b7b-4cfa-b74e-f44ffa8bb37e",
+    "ActionName": "LoggingPOC.Controllers.WeatherForecastController.Get (LoggingPOC)",
+    "RequestId": "80000005-0003-ff00-b63f-84710c7967bb",
+    "RequestPath": "/weatherforecast",
+    "SpanId": "|dece85e5-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e5-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 4,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:44.1631662+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{FlowStatus} middleware operation {FlowId}",
+  "Properties": {
+    "FlowStatus": "End",
+    "FlowId": "GetWeather",
+    "RequestId": "80000005-0003-ff00-b63f-84710c7967bb",
+    "RequestPath": "/weatherforecast",
+    "SpanId": "|dece85e5-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e5-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 4,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:44.1648474+01:00",
+  "Level": "Information",
+  "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+  "Properties": {
+    "RequestMethod": "GET",
+    "RequestPath": "/weatherforecast",
+    "StatusCode": 200,
+    "Elapsed": 351.4885,
+    "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+    "RequestId": "80000005-0003-ff00-b63f-84710c7967bb",
+    "SpanId": "|dece85e5-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e5-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 4,
+    "ApplicationName": "Serilog.WebApplication"
+  },
+  "Renderings": {
+    "Elapsed": [
+      {
+        "Format": "0.0000",
+        "Rendering": "351.4885"
+      }
+    ]
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:47.9106177+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{FlowStatus} middleware operation {FlowId}",
+  "Properties": {
+    "FlowStatus": "Start",
+    "FlowId": "GetException",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "RequestPath": "/error/exception",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:47.9136995+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{@EventProperties}",
+  "Properties": {
+    "EventProperties": {
+      "FlowStatus": "Start",
+      "FlowId": "GetException",
+      "Method": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)"
+    },
+    "ActionId": "1cc7330d-1a87-4293-972a-f7cf23fa6d9a",
+    "ActionName": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "RequestPath": "/error/exception",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:47.9139923+01:00",
+  "Level": "Information",
+  "MessageTemplate": "Another way of log with properties {FlowStatus} {FlowId} {Method}",
+  "Properties": {
+    "FlowStatus": "Start",
+    "FlowId": "GetException",
+    "Method": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+    "ActionId": "1cc7330d-1a87-4293-972a-f7cf23fa6d9a",
+    "ActionName": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "RequestPath": "/error/exception",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:52.4816471+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{@EventProperties}",
+  "Properties": {
+    "EventProperties": {
+      "FlowStatus": "End",
+      "FlowId": "GetException",
+      "Method": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+      "ExecutionTimeElapsed": 4567
+    },
+    "ActionId": "1cc7330d-1a87-4293-972a-f7cf23fa6d9a",
+    "ActionName": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "RequestPath": "/error/exception",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:52.4819161+01:00",
+  "Level": "Information",
+  "MessageTemplate": "Another way of log with properties {FlowStatus} {FlowId} {Method} {ExecutionTimeElapsed}",
+  "Properties": {
+    "FlowStatus": "End",
+    "FlowId": "GetException",
+    "Method": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+    "ExecutionTimeElapsed": 4567,
+    "ActionId": "1cc7330d-1a87-4293-972a-f7cf23fa6d9a",
+    "ActionName": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "RequestPath": "/error/exception",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:52.4859860+01:00",
+  "Level": "Error",
+  "MessageTemplate": "An error occured in {@Action} {@EventProperties}",
+  "Exception": "System.Exception: Exception thrown from business logic\r\n   at LoggingPOC.BL.ErrorBl.ThrowingException() in C:\\Workspaces\\LoggingPOC\\LoggingPOC\\BL\\ErrorBL.cs:line 14\r\n   at LoggingPOC.Controllers.ErrorController.GetException() in C:\\Workspaces\\LoggingPOC\\LoggingPOC\\Controllers\\ErrorController.cs:line 31\r\n   at lambda_method(Closure , Object , Object[] )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)",
+  "Properties": {
+    "Action": [
+      {
+        "_typeTag": "KeyValuePair`2",
+        "Key": "Microsoft.AspNetCore.Mvc.ApiDescriptionActionData",
+        "Value": {
+          "_typeTag": "ApiDescriptionActionData",
+          "GroupName": null
+        }
+      },
+      {
+        "_typeTag": "KeyValuePair`2",
+        "Key": "Microsoft.AspNetCore.Mvc.ProducesErrorResponseTypeAttribute",
+        "Value": {
+          "_typeTag": "ProducesErrorResponseTypeAttribute",
+          "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+          "TypeId": "Microsoft.AspNetCore.Mvc.ProducesErrorResponseTypeAttribute"
+        }
+      },
+      {
+        "_typeTag": "KeyValuePair`2",
+        "Key": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+        "Value": {
+          "_typeTag": "Stopwatch",
+          "IsRunning": false,
+          "Elapsed": "00:00:04.5673367",
+          "ElapsedMilliseconds": 4567,
+          "ElapsedTicks": 45673367
+        }
+      }
+    ],
+    "ActionId": "1cc7330d-1a87-4293-972a-f7cf23fa6d9a",
+    "ActionName": "LoggingPOC.Controllers.ErrorController.GetException (LoggingPOC)",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "RequestPath": "/error/exception",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:52.5268096+01:00",
+  "Level": "Information",
+  "MessageTemplate": "{FlowStatus} middleware operation {FlowId}",
+  "Properties": {
+    "FlowStatus": "End",
+    "FlowId": "GetException",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "RequestPath": "/error/exception",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  }
+} {
+  "Timestamp": "2020-12-11T13:01:52.5271840+01:00",
+  "Level": "Information",
+  "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+  "Properties": {
+    "RequestMethod": "GET",
+    "RequestPath": "/error/exception",
+    "StatusCode": 200,
+    "Elapsed": 4617.8483,
+    "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+    "RequestId": "80000010-0000-fd00-b63f-84710c7967bb",
+    "SpanId": "|dece85e6-4fc551d55f4ff4b1.",
+    "TraceId": "dece85e6-4fc551d55f4ff4b1",
+    "ParentId": "",
+    "MachineName": "\"PP03006\"",
+    "ProcessId": 20052,
+    "ThreadId": 9,
+    "ApplicationName": "Serilog.WebApplication"
+  },
+  "Renderings": {
+    "Elapsed": [
+      {
+        "Format": "0.0000",
+        "Rendering": "4617.8483"
+      }
+    ]
+  }
+}
